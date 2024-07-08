@@ -24,6 +24,46 @@ x &= \frac{-b \pm \sqrt{b^2 - 4ac}}{2a} \\
 &= \sum_{\tau \in C_{\sigma t}} \operatorname{sgn}(\sigma^{-1} \tau \sigma) \varphi_{\sigma}^{\lambda} \varphi_{\sigma^{-1} \tau \sigma}^{\lambda} \\
 &= A_{\sigma t} \varphi_{\sigma}^{\lambda}
 \end{aligned}
+
+
+
+program 6 
+PROGRAM  6
+\documentclass{article}
+\usepackage{graphicx}
+\usepackage{subcaption}% For side-by-side
+\begin{document}
+\textbf{\huge Side-by-Side Subgraphs}
+\begin{figure}[ht]
+\subfloat[Cover Audio plot]
+{
+\begin{minipage}[c][1\width]
+{0.3\textwidth}
+\centering
+\includegraphics[width=1\textwidth]{Cover.png}
+\end{minipage}
+}
+\hfill  
+\subfloat[Secret Audio plot]
+{
+\begin{minipage}[c][1\width]
+{0.3\textwidth}
+\centering
+\includegraphics[width=1\textwidth]{Secrert.png}
+\end{minipage}
+}
+\hfill  
+\subfloat[Stego]
+{
+\begin{minipage}[c][1\width]
+{0.3\textwidth}
+\centering
+\includegraphics[width=1\textwidth]{Stego.png}
+\end{minipage}
+}
+\caption{Audio steganography plots}
+\end{figure}
+\end{document}
 \end{aligned}
 \]
 \end{document}
